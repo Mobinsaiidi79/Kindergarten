@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+    @font-face {
+        font-family: "vazir";
+        src: url(../public/fonts/vazir/Vazir-Bold.ttf);
+    }
+
+
+    body{
+        font-family: "vazir";
+        direction: rtl;
+    }
+   .header{
+    background: url(../public/img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+
+   .footer{
+    background: url(../public/img/footer2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+   }
+}
